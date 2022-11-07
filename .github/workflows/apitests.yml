@@ -18,4 +18,10 @@ jobs:
         tests: |
           example-tests/even-numbers.feature
           example-tests/odd-numbers.feature
-
+          
+    # Upload the contents of Test Results directory to workspace
+    - name: Output the run Details
+      uses: actions/upload-artifact@v2
+      with:
+          name: Reports
+          path: file:///github/workspace/target/karate-reports/karate-summary.html
