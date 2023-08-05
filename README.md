@@ -3,7 +3,7 @@
 
 A GitHub Action to run [Karate](https://intuit.github.io/karate/) tests.
 
-# Input parameters
+# Input parameter
 
 | Input   | Description                                                                           |
 | ------- | ------------------------------------------------------------------------------------- |
