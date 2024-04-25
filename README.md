@@ -5,7 +5,7 @@ A GitHub Action to run [Karate](https://intuit.github.io/karate/) tests.
 
 # Input parameter
 
-| Input   | Description                                                                           |
+| Inputs   | Description                                                                           |
 | ------- | ------------------------------------------------------------------------------------- |
 | url     | URL to pass as script variable to a feature test |
 | test    | One or more files or directories containing Karate tests                              |
